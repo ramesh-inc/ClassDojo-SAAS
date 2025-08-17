@@ -1,0 +1,107 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Django: Debug Server",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "runserver",
+                "8000"
+            ],
+            "django": true,
+            "autoReload": {
+                "enable": true
+            },
+            "env": {
+                "DJANGO_SETTINGS_MODULE": "classdojo_project.settings",
+                "DEBUG": "True"
+            },
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "subProcess": true
+        },
+        {
+            "name": "Django: Debug Tests",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "test"
+            ],
+            "django": true,
+            "env": {
+                "DJANGO_SETTINGS_MODULE": "classdojo_project.settings",
+                "DEBUG": "True"
+            },
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Django: Debug Specific Test",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "test",
+                "${input:testPath}"
+            ],
+            "django": true,
+            "env": {
+                "DJANGO_SETTINGS_MODULE": "classdojo_project.settings",
+                "DEBUG": "True"
+            },
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Django: Debug Management Command",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "${input:managementCommand}"
+            ],
+            "django": true,
+            "env": {
+                "DJANGO_SETTINGS_MODULE": "classdojo_project.settings",
+                "DEBUG": "True"
+            },
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Django: Debug Celery Worker",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/venv/bin/celery",
+            "args": [
+                "-A",
+                "classdojo_project",
+                "worker",
+                "--loglevel=debug"
+            ],
+            "env": {
+                "DJANGO_SETTINGS_MODULE": "classdojo_project.settings",
+                "DEBUG": "True"
+            },
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ],
+    "inputs": [
+        {
+            "id": "testPath",
+            "description": "Enter the test path (e.g., core.tests.test_models)",
+            "default": "core.tests",
+            "type": "promptString"
+        },
+        {
+            "id": "managementCommand",
+            "description": "Enter the management command (e.g., migrate, collectstatic)",
+            "default": "migrate",
+            "type": "promptString"
+        }
+    ]
+}
