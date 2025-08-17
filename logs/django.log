@@ -1,0 +1,84 @@
+INFO 2025-08-17 15:12:27,133 autoreload 13643 8715869952 Watching for file changes with StatReloader
+ERROR 2025-08-17 15:12:58,978 log 13643 6191607808 Internal Server Error: /api/v1/auth/health/
+ERROR 2025-08-17 15:12:58,978 basehttp 13643 6191607808 "GET /api/v1/auth/health/ HTTP/1.1" 500 58
+ERROR 2025-08-17 15:13:03,257 log 13643 6191607808 Internal Server Error: /api/v1/auth/health/
+ERROR 2025-08-17 15:13:03,257 basehttp 13643 6191607808 "GET /api/v1/auth/health/ HTTP/1.1" 500 58
+ERROR 2025-08-17 15:14:17,028 log 13643 6208434176 Internal Server Error: /api/v1/auth/health/
+ERROR 2025-08-17 15:14:17,029 basehttp 13643 6208434176 "GET /api/v1/auth/health/ HTTP/1.1" 500 58
+ERROR 2025-08-17 15:21:20,504 log 13643 6225260544 Internal Server Error: /api/v1/auth/health/
+ERROR 2025-08-17 15:21:20,505 basehttp 13643 6225260544 "GET /api/v1/auth/health/ HTTP/1.1" 500 58
+ERROR 2025-08-17 15:21:40,287 log 13643 6225260544 Internal Server Error: /api/v1/auth/health/
+ERROR 2025-08-17 15:21:40,289 basehttp 13643 6225260544 "GET /api/v1/auth/health/ HTTP/1.1" 500 58
+INFO 2025-08-17 15:22:29,738 autoreload 13643 8715869952 /Users/bimaliyapa/Documents/GitHub/ClassDojo-Parent-Portal/classdojo_project/settings.py changed, reloading.
+INFO 2025-08-17 15:22:30,107 autoreload 14146 8715869952 Watching for file changes with StatReloader
+INFO 2025-08-17 15:24:09,757 autoreload 14232 8715869952 Watching for file changes with StatReloader
+ERROR 2025-08-17 15:24:21,493 log 14232 6197768192 Internal Server Error: /api/v1/auth/health/
+ERROR 2025-08-17 15:24:21,494 basehttp 14232 6197768192 "GET /api/v1/auth/health/ HTTP/1.1" 500 58
+ERROR 2025-08-17 15:24:22,666 log 14232 6197768192 Internal Server Error: /api/v1/auth/health/
+ERROR 2025-08-17 15:24:22,666 basehttp 14232 6197768192 "GET /api/v1/auth/health/ HTTP/1.1" 500 58
+INFO 2025-08-17 15:25:42,880 autoreload 14300 8715869952 Watching for file changes with StatReloader
+ERROR 2025-08-17 15:25:51,625 log 14232 6214594560 Internal Server Error: /api/v1/auth/health/
+ERROR 2025-08-17 15:25:51,626 basehttp 14232 6214594560 "GET /api/v1/auth/health/ HTTP/1.1" 500 58
+INFO 2025-08-17 15:26:15,375 autoreload 14315 8715869952 Watching for file changes with StatReloader
+INFO 2025-08-17 15:27:42,967 autoreload 14232 8715869952 /Users/bimaliyapa/Documents/GitHub/ClassDojo-Parent-Portal/classdojo_project/settings.py changed, reloading.
+INFO 2025-08-17 15:27:43,379 autoreload 14652 8715869952 Watching for file changes with StatReloader
+INFO 2025-08-17 15:29:55,844 autoreload 14714 8715869952 Watching for file changes with StatReloader
+INFO 2025-08-17 15:30:06,468 basehttp 14714 6197014528 "GET /api/v1/auth/health/ HTTP/1.1" 200 85
+ERROR 2025-08-17 15:31:58,028 log 14714 6213840896 Internal Server Error: /api/v1/auth/register/parent/
+ERROR 2025-08-17 15:31:58,028 basehttp 14714 6213840896 "POST /api/v1/auth/register/parent/ HTTP/1.1" 500 50
+INFO 2025-08-17 15:33:43,148 autoreload 14714 8715869952 /Users/bimaliyapa/Documents/GitHub/ClassDojo-Parent-Portal/classdojo_project/settings.py changed, reloading.
+INFO 2025-08-17 15:33:43,621 autoreload 14827 8715869952 Watching for file changes with StatReloader
+INFO 2025-08-17 15:34:02,361 autoreload 14827 8715869952 /Users/bimaliyapa/Documents/GitHub/ClassDojo-Parent-Portal/core/accounts/email_service.py changed, reloading.
+INFO 2025-08-17 15:34:02,727 autoreload 14850 8715869952 Watching for file changes with StatReloader
+INFO 2025-08-17 15:34:57,581 basehttp 14850 6157152256 "POST /api/v1/auth/register/parent/ HTTP/1.1" 201 134
+INFO 2025-08-17 15:35:38,708 basehttp 14850 6157152256 "POST /api/v1/auth/register/parent/ HTTP/1.1" 201 138
+WARNING 2025-08-17 15:38:28,960 log 14850 6173978624 Bad Request: /api/v1/auth/verify-email/
+WARNING 2025-08-17 15:38:28,961 basehttp 14850 6173978624 "POST /api/v1/auth/verify-email/ HTTP/1.1" 400 41
+WARNING 2025-08-17 15:38:49,332 log 14850 6173978624 Bad Request: /api/v1/auth/verify-email/
+WARNING 2025-08-17 15:38:49,333 basehttp 14850 6173978624 "POST /api/v1/auth/verify-email/ HTTP/1.1" 400 41
+WARNING 2025-08-17 15:45:54,784 log 14850 6190804992 Bad Request: /api/v1/auth/register/parent/
+WARNING 2025-08-17 15:45:54,785 basehttp 14850 6190804992 "POST /api/v1/auth/register/parent/ HTTP/1.1" 400 64
+INFO 2025-08-17 15:46:04,933 basehttp 14850 6190804992 "POST /api/v1/auth/register/parent/ HTTP/1.1" 201 143
+INFO 2025-08-17 15:47:38,127 basehttp 14850 6207631360 "POST /api/v1/auth/verify-email/ HTTP/1.1" 200 915
+WARNING 2025-08-17 15:51:02,096 log 14850 6224457728 Bad Request: /api/v1/auth/verify-email/
+WARNING 2025-08-17 15:51:02,097 basehttp 14850 6224457728 "POST /api/v1/auth/verify-email/ HTTP/1.1" 400 41
+INFO 2025-08-17 15:51:13,531 basehttp 14850 6224457728 "POST /api/v1/auth/register/parent/ HTTP/1.1" 201 144
+INFO 2025-08-17 15:52:00,652 basehttp 14850 6224457728 "POST /api/v1/auth/verify-email/ HTTP/1.1" 200 917
+ERROR 2025-08-17 15:53:05,189 log 14850 6241284096 Internal Server Error: /api/v1/auth/login/
+ERROR 2025-08-17 15:53:05,190 basehttp 14850 6241284096 "POST /api/v1/auth/login/ HTTP/1.1" 500 58
+INFO 2025-08-17 15:53:28,772 basehttp 14850 6241284096 "POST /api/v1/auth/login/ HTTP/1.1" 200 836
+INFO 2025-08-17 15:53:52,048 basehttp 14850 6241284096 "POST /api/v1/auth/login/ HTTP/1.1" 200 836
+INFO 2025-08-17 15:54:59,384 basehttp 14850 6258110464 "GET /api/v1/auth/profile/ HTTP/1.1" 200 345
+INFO 2025-08-17 15:59:33,532 basehttp 14850 6274936832 "POST /api/v1/auth/login/ HTTP/1.1" 200 791
+INFO 2025-08-17 16:02:18,851 basehttp 14850 6291763200 "POST /api/v1/auth/login/ HTTP/1.1" 200 791
+INFO 2025-08-17 16:04:01,646 basehttp 14850 6308589568 "POST /api/v1/auth/register/teacher/ HTTP/1.1" 201 119
+INFO 2025-08-17 16:05:40,501 basehttp 14850 6325415936 "POST /api/v1/auth/login/ HTTP/1.1" 200 836
+INFO 2025-08-17 16:06:23,652 basehttp 14850 6325415936 "POST /api/v1/auth/refresh/ HTTP/1.1" 200 483
+INFO 2025-08-17 16:06:40,359 basehttp 14850 6325415936 "POST /api/v1/auth/refresh/ HTTP/1.1" 200 483
+INFO 2025-08-17 16:08:09,296 basehttp 14850 6342242304 "POST /api/v1/auth/resend-verification/ HTTP/1.1" 200 51
+WARNING 2025-08-17 16:09:16,895 log 14850 6359068672 Bad Request: /api/v1/auth/register/parent/
+WARNING 2025-08-17 16:09:16,896 basehttp 14850 6359068672 "POST /api/v1/auth/register/parent/ HTTP/1.1" 400 42
+WARNING 2025-08-17 16:10:19,632 log 14850 6375895040 Bad Request: /api/v1/auth/register/parent/
+WARNING 2025-08-17 16:10:19,632 basehttp 14850 6375895040 "POST /api/v1/auth/register/parent/ HTTP/1.1" 400 48
+WARNING 2025-08-17 16:12:32,026 log 14850 6392721408 Unauthorized: /api/v1/auth/profile/
+WARNING 2025-08-17 16:12:32,028 basehttp 14850 6392721408 "GET /api/v1/auth/profile/ HTTP/1.1" 401 110
+INFO 2025-08-17 16:19:09,363 basehttp 14850 6409547776 "GET /api/docs/ HTTP/1.1" 200 11042
+INFO 2025-08-17 16:22:10,491 basehttp 14850 6426374144 "GET /api/docs/ HTTP/1.1" 200 11042
+INFO 2025-08-17 16:22:10,540 basehttp 14850 6426374144 "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2025-08-17 16:22:10,546 basehttp 14850 12969013248 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2025-08-17 16:22:10,549 basehttp 14850 12969013248 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+INFO 2025-08-17 16:22:10,550 basehttp 14850 12952186880 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2025-08-17 16:22:10,555 basehttp 14850 6426374144 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2025-08-17 16:22:10,561 basehttp 14850 12952186880 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2025-08-17 16:22:10,562 basehttp 14850 12901707776 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+INFO 2025-08-17 16:22:10,565 basehttp 14850 12935360512 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2025-08-17 16:22:10,567 basehttp 14850 12918534144 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+INFO 2025-08-17 16:22:10,621 basehttp 14850 12918534144 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2025-08-17 16:22:10,625 basehttp 14850 12935360512 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2025-08-17 16:22:10,655 basehttp 14850 12935360512 "GET /api/docs/?format=openapi HTTP/1.1" 200 11005
+INFO 2025-08-17 16:22:10,754 basehttp 14850 12935360512 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+INFO 2025-08-17 16:22:10,934 basehttp 14850 12935360512 "GET /__debug__/history_sidebar/?store_id=ed7342d0b4424702be21cd8ed26b0d62 HTTP/1.1" 200 9475
+INFO 2025-08-17 16:24:07,705 basehttp 14850 6426374144 "GET /api/docs/ HTTP/1.1" 200 11042
+INFO 2025-08-17 16:24:08,066 basehttp 14850 6426374144 "GET /__debug__/history_sidebar/?store_id=ed7342d0b4424702be21cd8ed26b0d62 HTTP/1.1" 200 9475
+INFO 2025-08-17 16:24:16,077 basehttp 14850 6426374144 "GET /api/schema/ HTTP/1.1" 200 12815
+INFO 2025-08-17 16:25:14,942 basehttp 14850 6426374144 "GET /api/docs/ HTTP/1.1" 200 11042
